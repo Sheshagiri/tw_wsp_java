@@ -8,7 +8,7 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>library-modal</module>
-		<module>books-war</module>
-		<module>books-services</module>
+		<module>library-webapp</module>
+		<module>library-services</module>
 	</modules>
 </project>
