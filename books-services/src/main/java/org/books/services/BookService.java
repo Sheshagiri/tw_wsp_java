@@ -1,7 +1,5 @@
 package org.books.services;
 
-import java.awt.print.Book;
-
 import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
@@ -11,10 +9,12 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
+import org.library.modal.Book;
+
 @Path("/books")
 public class BookService {
 	@POST
-	public Response addBook(Book isbn){
+	public Response addBook(Book book){
 		return Response.ok().entity("adding the book.").build();
 	}
 	
